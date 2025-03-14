@@ -1,0 +1,16 @@
+{
+  "name": "remote-wa-example",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -w src --ext ts --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "werift": "0.22.1",
+    "ws": "8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "@types/ws": "8.18.0",
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2"
+  }
+}
